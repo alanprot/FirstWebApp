@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+</head>
+<body>
+    <div id="Teste" style="display: inline">
+        <label for="tags">Tags: </label>
+        <input id="tags" />
+        <div id="detail" style="display: inline"></div>
+    </div>
+
+
+</body>
+
+<script>
+    $(function () {
+
+        var companyList = $("#tags").autocomplete({
+            source: func,
+            delay: 500,
+            select: function (event, ui) {
+                if (ui.item != undefined) {
+                    var id = ui.item.id;
+                    jQuery.ajax({
+                        url: "api/Users/" + id,
+                        type: "GET",
+                        data: null,
+                        dataType: "json",
+                        contentType: "application/json; charset=utf-8",
+                        success: function (data) {
+                            $("#detail").html(data.nome + " " + data.id + " " + data.idade);
+                        }
+                    });
+
+                }
+            },
+            open: function (event, ui) {
+                $(this).keydown(function (e, ui) {
+                    var keyCode = e.keyCode || e.which;
+                    if (keyCode == 13 || keyCode == 108) {
+                        $(this).blur();
+                        return false;
+                    }
+                    return true;
+                });
+            },
+            change: function (event, ui) {
+            }
+        }
+        );
+
+
+
+
+        function func(request, response) {
+            var Pessoa = new Object;
+            Pessoa.nome = $("#tags").val();
+
+            jQuery.ajax({
+                url: "api/Users",
+                type: "POST",
+                data: JSON.stringify(Pessoa),
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+                    response(
+                            $.map(data, function (item) {
+                                return {
+                                    label: item.nome,
+                                    value: item.nome,
+                                    id: item.id
+                                }
+                            }))
+                }
+            });
+        };
+
+
+    });
+</script>
+</html>

@@ -1,0 +1,8 @@
+C:\Users\Alan\Documents\GitHub\FirstWebApp\MongoDBFramework.Databind\bin\Release\MongoDBFramework.Databind.dll
+C:\Users\Alan\Documents\GitHub\FirstWebApp\MongoDBFramework.Databind\bin\Release\MongoDBFramework.Databind.pdb
+C:\Users\Alan\Documents\GitHub\FirstWebApp\MongoDBFramework.Databind\bin\Release\MongoDB.Bson.dll
+C:\Users\Alan\Documents\GitHub\FirstWebApp\MongoDBFramework.Databind\bin\Release\MongoDB.Driver.dll
+C:\Users\Alan\Documents\GitHub\FirstWebApp\MongoDBFramework.Databind\bin\Release\MongoDB.Bson.xml
+C:\Users\Alan\Documents\GitHub\FirstWebApp\MongoDBFramework.Databind\bin\Release\MongoDB.Driver.xml
+C:\Users\Alan\Documents\GitHub\FirstWebApp\MongoDBFramework.Databind\obj\Release\MongoDBFramework.Databind.dll
+C:\Users\Alan\Documents\GitHub\FirstWebApp\MongoDBFramework.Databind\obj\Release\MongoDBFramework.Databind.pdb

@@ -1,0 +1,11 @@
+C:\Users\Alan\Documents\GitHub\FirstWebApp\WebApp.Domain\bin\Release\WebApp.Domain.dll
+C:\Users\Alan\Documents\GitHub\FirstWebApp\WebApp.Domain\bin\Release\WebApp.Domain.pdb
+C:\Users\Alan\Documents\GitHub\FirstWebApp\WebApp.Domain\bin\Release\MongoDBFramework.Databind.dll
+C:\Users\Alan\Documents\GitHub\FirstWebApp\WebApp.Domain\bin\Release\MongoDB.Driver.dll
+C:\Users\Alan\Documents\GitHub\FirstWebApp\WebApp.Domain\bin\Release\MongoDB.Bson.dll
+C:\Users\Alan\Documents\GitHub\FirstWebApp\WebApp.Domain\bin\Release\MongoDBFramework.Databind.pdb
+C:\Users\Alan\Documents\GitHub\FirstWebApp\WebApp.Domain\bin\Release\MongoDB.Driver.xml
+C:\Users\Alan\Documents\GitHub\FirstWebApp\WebApp.Domain\bin\Release\MongoDB.Bson.xml
+C:\Users\Alan\Documents\GitHub\FirstWebApp\WebApp.Domain\obj\Release\WebApp.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Alan\Documents\GitHub\FirstWebApp\WebApp.Domain\obj\Release\WebApp.Domain.dll
+C:\Users\Alan\Documents\GitHub\FirstWebApp\WebApp.Domain\obj\Release\WebApp.Domain.pdb

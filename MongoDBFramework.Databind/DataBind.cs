@@ -10,16 +10,19 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using System.Runtime.Serialization;
 
 namespace MongoDBFramework.Databind
-{
+{   
+    [DataContract]
     public abstract class DataBind<T> where T : DataBind<T>
     {
-        public static string ConnectionString = "mongodb://ec2-23-23-44-253.compute-1.amazonaws.com";
+        public static string ConnectionString = "mongodb://localhost";
         public static string DatabaseName = "test";
         public static int DEFAULT_PAGE_SIZE = 15;
 
         [BsonId]
+        [DataMember(Name = "id")]
         public string Id { get; set; }
 
         private static MongoCollection<T> GetCollection()
@@ -67,7 +70,7 @@ namespace MongoDBFramework.Databind
 
         public static T FindFirst(Expression<Func<T, bool>> expression)
         {
-            return FindAll(expression).First();
+            return FindAll(expression).FirstOrDefault();
         }
 
         public static IEnumerable<T> FindAll(Func<T, bool> predicateWhere, Comparison<T> comp)

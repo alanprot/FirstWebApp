@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MongoDBFramework</RootNamespace>
     <AssemblyName>MongoDBFramework</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,7 +44,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TesteEntity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -53,6 +53,10 @@
     <ProjectReference Include="..\MongoDBFramework.Databind\MongoDBFramework.Databind.csproj">
       <Project>{0f6a90cf-c3c1-4309-89e5-6cf4a5ec100d}</Project>
       <Name>MongoDBFramework.Databind</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebApp.Domain\WebApp.Domain.csproj">
+      <Project>{c87c0f49-f558-4ce6-bff5-e32b280ef88e}</Project>
+      <Name>WebApp.Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

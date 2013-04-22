@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>04/19/2013 18:17:51</publishTime>
+    </File>
+    <File Include="bin/MongoDB.Bson.dll">
+      <publishTime>04/19/2013 18:08:56</publishTime>
+    </File>
+    <File Include="bin/MongoDB.Driver.dll">
+      <publishTime>04/19/2013 18:08:56</publishTime>
+    </File>
+    <File Include="bin/MongoDBFramework.Databind.dll">
+      <publishTime>04/20/2013 05:40:35</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/19/2013 18:17:51</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.dll">
+      <publishTime>07/10/2012 21:52:12</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>04/19/2013 18:17:52</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.WebRequest.dll">
+      <publishTime>07/10/2012 21:52:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>04/19/2013 18:17:52</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>04/19/2013 18:17:53</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>04/19/2013 18:17:53</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>04/19/2013 18:17:52</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>04/19/2013 18:17:52</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>04/19/2013 18:17:52</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>04/19/2013 18:17:52</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>04/19/2013 18:17:52</publishTime>
+    </File>
+    <File Include="bin/WebApp.dll">
+      <publishTime>04/20/2013 05:40:36</publishTime>
+    </File>
+    <File Include="bin/WebApp.Domain.dll">
+      <publishTime>04/20/2013 05:40:35</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>04/19/2013 18:40:48</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>04/19/2013 18:40:49</publishTime>
+    </File>
+    <File Include="Script/jquery-1.9.1.min.js">
+      <publishTime>04/19/2013 19:36:34</publishTime>
+    </File>
+    <File Include="Views/Home/index.cshtml">
+      <publishTime>04/20/2013 04:48:13</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>04/19/2013 18:40:48</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/20/2013 05:40:36</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

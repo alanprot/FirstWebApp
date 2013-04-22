@@ -1,0 +1,14 @@
+C:\Users\Alan\Documents\GitHub\FirstWebApp\MongoDBFramework\bin\Debug\MongoDBFramework.exe.config
+C:\Users\Alan\Documents\GitHub\FirstWebApp\MongoDBFramework\bin\Debug\MongoDBFramework.exe
+C:\Users\Alan\Documents\GitHub\FirstWebApp\MongoDBFramework\bin\Debug\MongoDBFramework.pdb
+C:\Users\Alan\Documents\GitHub\FirstWebApp\MongoDBFramework\bin\Debug\MongoDBFramework.Databind.dll
+C:\Users\Alan\Documents\GitHub\FirstWebApp\MongoDBFramework\bin\Debug\WebApp.Domain.dll
+C:\Users\Alan\Documents\GitHub\FirstWebApp\MongoDBFramework\bin\Debug\MongoDB.Driver.dll
+C:\Users\Alan\Documents\GitHub\FirstWebApp\MongoDBFramework\bin\Debug\MongoDB.Bson.dll
+C:\Users\Alan\Documents\GitHub\FirstWebApp\MongoDBFramework\bin\Debug\MongoDBFramework.Databind.pdb
+C:\Users\Alan\Documents\GitHub\FirstWebApp\MongoDBFramework\bin\Debug\WebApp.Domain.pdb
+C:\Users\Alan\Documents\GitHub\FirstWebApp\MongoDBFramework\bin\Debug\MongoDB.Driver.xml
+C:\Users\Alan\Documents\GitHub\FirstWebApp\MongoDBFramework\bin\Debug\MongoDB.Bson.xml
+C:\Users\Alan\Documents\GitHub\FirstWebApp\MongoDBFramework\obj\Debug\MongoDBFramework.csprojResolveAssemblyReference.cache
+C:\Users\Alan\Documents\GitHub\FirstWebApp\MongoDBFramework\obj\Debug\MongoDBFramework.exe
+C:\Users\Alan\Documents\GitHub\FirstWebApp\MongoDBFramework\obj\Debug\MongoDBFramework.pdb
